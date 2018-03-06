@@ -6,13 +6,11 @@
   "scripts": {
     "deploy": "gh-pages -b master -d build",
     "predeploy": "npm run build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "watch": "webpack -d --watch",
+    "start": "nodemon",
     "build": "webpack",
+    "watch": "webpack -d --watch",
     "serve": "serve ./public",
-    "homepage": "https://marioantony.github.io",
-    "start": "nodemon"
+    "homepage": "https://marioantony.github.io"
   },
   "author": "Christian Nwamba",
   "license": "MIT",

@@ -6,13 +6,12 @@
   "scripts": {
     "deploy": "gh-pages -b master -d build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "watch": "webpack -d --watch",
     "build": "webpack",
     "serve": "serve ./public",
-    "homepage": "https://marioantony.github.io/reactApp/",
+    "homepage": "https://marioantony.github.io",
     "start": "nodemon"
   },
   "author": "Christian Nwamba",

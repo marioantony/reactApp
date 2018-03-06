@@ -4,9 +4,15 @@
   "description": "React Router Aricle for Scotch",
   "main": "index.js",
   "scripts": {
+    "deploy": "gh-pages -b master -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "watch": "webpack -d --watch",
     "build": "webpack",
     "serve": "serve ./public",
+    "homepage": "https://marioantony.github.io/reactApp/",
     "start": "nodemon"
   },
   "author": "Christian Nwamba",
@@ -20,6 +26,7 @@
   },
   "dependencies": {
     "express": "^4.14.0",
+    "gh-pages": "^1.1.0",
     "history": "^3.0.0",
     "react": "^15.3.0",
     "react-dom": "^15.3.0",
